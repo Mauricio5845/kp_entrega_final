@@ -1,0 +1,12 @@
+@media (min-width: 990px) {
+    .logo{
+        width: 55%;
+    }
+    .carousel-item{
+        @include carrusel(100%,500px);
+
+        img{
+            @include imagen(100%,100%);
+        }
+    }
+}

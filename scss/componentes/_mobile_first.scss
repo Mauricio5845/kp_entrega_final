@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.logo{
+    width: 75%;
+}
+.texto_quienes{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+.carousel-item{
+    @include carrusel(50%,200px);
+    
+    img{
+        @include imagen(100%,100%);
+    }
+}

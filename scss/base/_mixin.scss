@@ -1,0 +1,11 @@
+@mixin imagen($ancho,$alto){
+        width: $ancho;
+        height: $alto;
+        object-fit: cover;
+}
+
+@mixin carrusel($ancho,$alto){
+    width: $ancho; 
+    height: $alto; 
+    overflow: hidden;
+}
